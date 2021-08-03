@@ -71,7 +71,24 @@ fifthLink.style.color ="green"
 sixthLink.textContent = "Contact"
 sixthLink.style.color ="green"
 
+// Append ele
+const navLink = document.createElement("a");
+navLink.textContent = "Blog";
+navLink.href = "#";
 
+
+document.querySelector("nav").appendChild(navLink);
+
+
+// Prepend ele
+const navLink2 = document.createElement("a");
+navLink2.textContent = "Search";
+navLink2.href = "#";
+
+
+document.querySelector("nav").prepend(navLink2);
+
+//
 
 
 const mainImg = document.getElementById("cta-img");
