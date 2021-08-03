@@ -41,6 +41,8 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
+// NAV CONTENT
+
 
 const firstLink = document.querySelector("nav a:nth-of-type(1)");
 const secondLink = document.querySelector("nav a:nth-of-type(2)");
@@ -52,11 +54,25 @@ const sixthLink = document.querySelector("nav a:nth-of-type(6)");
 
 
 firstLink.textContent = "Services"
+firstLink.style.color ="green"
+
 secondLink.textContent = "Products"
+secondLink.style.color ="green"
+
 thirdLink.textContent = "Vision"
+thirdLink.style.color ="green"
+
 fourthLink.textContent = "Features"
+fourthLink.style.color ="green"
+
 fifthLink.textContent = "About"
+fifthLink.style.color ="green"
+
 sixthLink.textContent = "Contact"
+sixthLink.style.color ="green"
+
+
+
 
 const mainImg = document.getElementById("cta-img");
 mainImg.setAttribute("src", siteContent["cta"]["img-src"])
@@ -70,7 +86,7 @@ button.textContent = siteContent["cta"]["button"]
 const headerText = document.querySelector(".cta-text h1");
 headerText.textContent = siteContent["cta"]["h1"]
 
-//
+// TOP  CONTENT
 
 
 const features = document.querySelector(".text-content h4");
@@ -88,7 +104,7 @@ const aboutContent = document.querySelector(".text-content:nth-of-type(2) p");
 aboutContent.textContent = siteContent["main-content"]["about-content"]
 
 
-//
+// Bottom CONTENT
 
 const services = document.querySelector(".bottom-content .text-content h4");
 services.textContent = siteContent["main-content"]["services-h4"]
@@ -113,7 +129,7 @@ vision.textContent = siteContent["main-content"]["vision-h4"]
 const visionContent = document.querySelector(".bottom-content .text-content:nth-of-type(3) p");
 visionContent.textContent = siteContent["main-content"]["vision-content"]
 
-//
+// CONTACT CONTENT
 
 
 
